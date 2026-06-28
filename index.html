@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Bipasa!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- হাত রাখার স্ক্যানার স্ক্রিন -->
+    <div id="scanner-page" class="screen-center">
+        <p class="guide-text">Press your finger or hand here....</p>
+        <div id="hand-btn" onmousedown="startHold()" onmouseup="endHold()" ontouchstart="startHold()" ontouchend="endHold()">
+            ✋
+        </div>
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+
+    <!-- ম্যাট্রিক্স কাউন্টডাউন ও বিড়ালের অ্যানিমেশন স্ক্রিন -->
+    <div id="birthday-page" class="screen-center hidden">
+        <div class="wish-content">
+            <!-- ভিডিওর হুবহু সেই কেক কাটা কিউট বিড়ালের অ্যানিমেশন -->
+            <div class="cat-gif">
+                <img src="https://media.tenor.com/289U_dZf_g8AAAAM/cute-cat.gif" alt="Cat Birthday Dance" width="250">
+            </div>
+            <h1 class="main-title">Happy Birthday, Bipasha! 🎉</h1>
+            <p class="personal-msg">Happy Birthday! ❤️ Wishing you all the happiness and success you deserve. Keep shining, because someone out there secretly admires you more than you know.😉✨ ❤️</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
